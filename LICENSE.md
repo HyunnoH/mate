@@ -175,7 +175,7 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 END OF TERMS AND CONDITIONS
 
-APPENDIX: How to apply the Apache License to your work.
+<!-- APPENDIX: How to apply the Apache License to your work.
 
       To apply the Apache License to your work, attach the following
       boilerplate notice, with the fields enclosed by brackets "[]"
@@ -184,9 +184,9 @@ APPENDIX: How to apply the Apache License to your work.
       comment syntax for the file format. We also recommend that a
       file or class name and description of purpose be included on the
       same "printed page" as the copyright notice for easier
-      identification within third-party archives.
+      identification within third-party archives. -->
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2021 "Hyun Oh"
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

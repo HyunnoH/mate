@@ -1,6 +1,6 @@
 # Harbor
 
-Harbor is open-source container monitoring & manipulation service.
+Harbor is open-source container monitoring & management service.
 
 # License
 
