@@ -1,11 +1,16 @@
 import "./App.css";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import SidebarLayout from "./layouts/side-bar";
 import LoginPage from "./features/login";
 
 function App() {
   return (
     <BrowserRouter>
-      <Route path="/login" component={LoginPage}></Route>
+      <Switch>
+        <Route path="/login" exact component={LoginPage}></Route>
+        <SidebarLayout />
+      </Switch>
     </BrowserRouter>
   );
 }
