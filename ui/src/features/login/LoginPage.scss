@@ -1,0 +1,12 @@
+.harbor-login-page {
+  height: 100vh;
+  background: rgb(0, 21, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-item > .ant-form-item-label > label {
+  color: white;
+}
