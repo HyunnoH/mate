@@ -12,9 +12,6 @@ export default function SidebarMenu() {
       </Menu.Item>
       <Menu.Item>3rd Item</Menu.Item>
       <Menu.Item>4th Item</Menu.Item>
-      <Menu.Item>
-        <Link to="/login">Log out</Link>
-      </Menu.Item>
     </Menu>
   );
 }

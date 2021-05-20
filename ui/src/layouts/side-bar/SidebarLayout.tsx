@@ -1,37 +1,30 @@
-import { Layout } from "antd";
-import { Route } from "react-router";
-import Dashboard from "../../features/dashboard";
+import "./SidebarLayout.scss";
+import { Layout, Menu } from "antd";
+
+import { Link } from "react-router-dom";
 import SidebarMenu from "../../features/side-bar";
 import { useTheme } from "../../theme/useTheme";
+import ContentLayout from "../content/ContentLayout";
 
-const { Sider, Content } = Layout;
+const { Sider } = Layout;
 
 export default function SidebarLayout() {
   const theme = useTheme();
 
   return (
     <Layout>
-      <Sider
-        theme={theme}
-        style={{
-          overflow: "auto",
-          height: "100vh",
-          position: "fixed",
-          left: 0,
-        }}
-      >
-        <div>Harbor</div>
-        <SidebarMenu />
+      <Sider theme={theme} className="sidebar-layout">
+        <div>
+          <div>Harbor</div>
+          <SidebarMenu />
+        </div>
+        <Menu theme={theme}>
+          <Menu.Item>
+            <Link to="/login">Log out</Link>
+          </Menu.Item>
+        </Menu>
       </Sider>
-      <Layout
-        style={{
-          marginLeft: 200,
-        }}
-      >
-        <Content>
-          <Route path="/" exact component={Dashboard} />
-        </Content>
-      </Layout>
+      <ContentLayout />
     </Layout>
   );
 }
