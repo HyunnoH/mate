@@ -1,11 +1,14 @@
 .platform-card {
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   width: 100%;
   background-color: white;
   padding: 20px;
 }
 
 .platform-card__image {
-  width: 100px;
-  height: 100px;
+  width: 96px;
+  height: 96px;
+  // border: 1px solid lightgray;
+  box-shadow: 1px 1px 4px lightgray;
+  margin-right: 32px;
 }

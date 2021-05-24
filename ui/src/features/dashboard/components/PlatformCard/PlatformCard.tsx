@@ -15,7 +15,11 @@ export default function PlatformCard({
       <Link to={`/server/${uuid}`}>
         <section>
           <Space>
-            <img src="" alt="" className="platform-card__image" />
+            <img
+              src={"" || `${process.env.PUBLIC_URL}/images/cargo-ship.png`}
+              alt=""
+              className="platform-card__image"
+            />
             <span>{address}</span>
           </Space>
         </section>
