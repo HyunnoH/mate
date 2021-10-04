@@ -1,0 +1,12 @@
+{
+  "name": "harbor",
+  "version": "0.0.1",
+  "description": "Open-source container monitoring & management service",
+  "main": "index.js",
+  "repository": "https://github.com/hyunnoh/harbor",
+  "author": "HyunnoH <hyunnoh01@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
