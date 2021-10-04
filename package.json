@@ -6,7 +6,27 @@
   "repository": "https://github.com/hyunnoh/harbor",
   "author": "HyunnoH <hyunnoh01@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch"
+  },
   "devDependencies": {
+    "@nestjs/cli": "^8.1.2",
+    "@nestjs/testing": "^8.0.9",
+    "@types/joi": "^17.2.3",
     "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.0.9",
+    "@nestjs/config": "^1.0.2",
+    "@nestjs/core": "^8.0.9",
+    "@nestjs/platform-fastify": "^8.0.9",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.13.1",
+    "joi": "^17.4.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.3.1"
   }
 }
